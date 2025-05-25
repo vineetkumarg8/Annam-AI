@@ -1,0 +1,23 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"start:dev": "node --loader ts-node/esm src/index.ts"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^5.1.0",
+		"express-fileupload": "^1.5.1",
+		"node-fetch": "^3.3.2"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.18",
+		"@types/express": "^5.0.2",
+		"@types/express-fileupload": "^1.5.1",
+		"@types/node": "^22.15.21",
+		"@types/node-fetch": "^2.6.12",
+		"ts-node": "^10.9.2",
+		"typescript": "~5.8.3"
+	}
+}
